@@ -3,8 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		C79F87A5202A5CE400E2210B /* ApplozicChat.m in Sources */ = {isa = PBXBuildFile; fileRef = C79F87A1202A5CE400E2210B /* ApplozicChat.m */; };
+		C79F87A6202A5CE400E2210B /* ALChatManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C79F87A4202A5CE400E2210B /* ALChatManager.m */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		58B511D91A9E6C8500147676 /* CopyFiles */ = {
@@ -20,7 +25,10 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNApplozicChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNApplozicChat.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7901F2C2028EAA4008D78A9 /* applozic */ = {isa = PBXFileReference; lastKnownFileType = folder; path = applozic; sourceTree = "<group>"; };
+		C79F87A1202A5CE400E2210B /* ApplozicChat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApplozicChat.m; path = applozic/ApplozicChat.m; sourceTree = "<group>"; };
+		C79F87A2202A5CE400E2210B /* ALChatManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALChatManager.h; path = applozic/ALChatManager.h; sourceTree = "<group>"; };
+		C79F87A3202A5CE400E2210B /* ApplozicChat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApplozicChat.h; path = applozic/ApplozicChat.h; sourceTree = "<group>"; };
+		C79F87A4202A5CE400E2210B /* ALChatManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALChatManager.m; path = applozic/ALChatManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +53,10 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				C7901F2C2028EAA4008D78A9 /* applozic */,
+				C79F87A2202A5CE400E2210B /* ALChatManager.h */,
+				C79F87A4202A5CE400E2210B /* ALChatManager.m */,
+				C79F87A3202A5CE400E2210B /* ApplozicChat.h */,
+				C79F87A1202A5CE400E2210B /* ApplozicChat.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,7 +96,7 @@
 				};
 			};
 			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNApplozicChat" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,6 +117,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C79F87A6202A5CE400E2210B /* ALChatManager.m in Sources */,
+				C79F87A5202A5CE400E2210B /* ApplozicChat.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
